@@ -1,0 +1,12 @@
+body { font-family: Arial, Helvetica, sans-serif; background:#faf0f5; color:#333; }
+.container { max-width:720px; margin:40px auto; padding:20px; background:white; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.08); text-align:center; }
+input, select, textarea, button { margin:6px; padding:10px; border-radius:6px; border:1px solid #ddd; }
+.card { display:inline-block; width:200px; margin:8px; padding:8px; text-align:left; vertical-align:top; background:#fff; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.05); }
+.card img { border-radius:6px; display:block; margin-bottom:6px; }
+.match { margin:6px 0; padding:6px; background:#f8f8ff; border-radius:6px; }
+.chat-overlay { position:fixed; left:0; top:0; right:0; bottom:0; background:rgba(0,0,0,0.4); display:flex; align-items:center; justify-content:center; }
+.chat-window { background:#fff; padding:16px; border-radius:8px; width:420px; max-height:80vh; display:flex; flex-direction:column; }
+.chat-window .messages { flex:1; overflow:auto; border:1px solid #eee; padding:8px; margin-bottom:8px; border-radius:6px; }
+.msg.me { text-align:right; color:#0b76ff; margin:6px 0; }
+.msg.them { text-align:left; color:#333; margin:6px 0; }
+.btn { display:inline-block; padding:8px 14px; background:#ff69b4; color:white; text-decoration:none; border-radius:6px; margin:6px; }

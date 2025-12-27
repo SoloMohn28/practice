@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Dashboard - DateMate</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<div class="container">
+  <h2>Welcome, <span id="displayName"></span></h2>
+  <section>
+    <h3>Filters</h3>
+    <select id="filterGender"><option>Any</option><option>Male</option><option>Female</option><option>Other</option></select>
+    <input id="filterMinAge" type="number" placeholder="min age" style="width:80px">
+    <input id="filterMaxAge" type="number" placeholder="max age" style="width:80px">
+    <input id="filterCity" placeholder="city">
+    <button id="applyFilters">Apply</button>
+  </section>
+  <section>
+    <h3>People</h3>
+    <div id="people"></div>
+  </section>
+  <section>
+    <h3>Your Matches</h3>
+    <div id="matches"></div>
+  </section>
+  <a class="btn" href="profile.html">Edit Profile</a>
+  <a class="btn" href="swipe.html">Swipe</a>
+  <a class="btn" href="preferences.html">Preferences</a>
+  <button id="logoutBtn" class="btn">Logout</button>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/chat.js"></script>
+</body>
+</html>
